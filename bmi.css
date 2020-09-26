@@ -1,0 +1,331 @@
+html{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+
+body{
+
+background-image:url(llll.jpg);
+font-family:"Jura";
+background-repeat: no-repeat;
+background-size: 100%  19%;
+overflow-x: hidden;
+
+
+
+
+  /* height: 100%;
+  background-repeat:repeat-y;
+  background-size: cover;
+  background-position: center; */
+  margin: 0;
+
+}
+#sorry-div{
+  background-color: #e8e8e8;
+  height: 300px;
+  width: 300px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: fixed;
+  border-radius: 5px;
+  visibility: hidden;
+
+}
+
+.nav{
+  display: flex;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: "Jura";
+  position: fixed;
+  white-space:nowrap;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1), 0px 40px 40px rgb(0, 0, 0, 0.5);
+
+/* animation: mov-div-tt 3s ease ; */
+}
+.nav-ul{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: "Jura";
+    top: 0;
+
+
+
+}
+.nav-list{
+  padding: 0 40px 0 77px;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-family: "Jura";
+    top: 0;
+    text-align: center;
+
+
+}
+.nav-list:hover{
+  background-color: #ddd;
+  color: black;
+    top: 0;
+}
+.brand-name{
+  display: inline-block;
+  padding: 0 5px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(180deg,#1aa6b7,#d789d7);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track{
+  background-color: #30475e;
+}
+.bmicccc{
+margin-bottom:100px;
+
+    font-weight: bold;
+}
+
+
+
+.tt{
+  background-color: white;
+  color: black;
+  margin-left: 272px;
+  width: 35%;
+  border-radius: 10px;
+  padding: 20px;
+  border-width: thin;
+  text-align: center;
+  margin-top: 20%;
+  margin-right: 0;
+  border-color: rgb(172, 31, 158);
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.2), 0px 40px 40px rgb(0, 0, 0, 0.5);
+  animation: mov-div-tt 0.1s ease;
+
+
+}
+@keyframes mov-div-tt {
+  from {
+    margin-right: 0;
+    opacity: 30%;
+  }
+  to {
+    margin-: 272px;
+
+    opacity: 100%;
+  }
+}
+/* 23px 32px */
+/* #888888 */
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(27, 78, 209);
+  width: 200px ;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1)
+
+}
+input:focus{
+  border-bottom: 2px solid rgb(27, 78, 209);
+  width: 300px ;
+  transition: 0.5s;
+  cursor:text;
+
+}
+
+.h-p{
+  font-size: 20px;
+}
+.w-p{
+  font-size: 20px;
+
+}
+button{
+  background-color:rgb(58, 101, 231);
+  color:white;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  font-family:"Jura";
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.2)
+    /* box-shadow: -0px -2px rgba(45, 60, 199, 0.83); */
+
+
+  /* outline-offset: inherit;
+  outline-color: black;
+  outline-width: thin;
+  outline-style:double;
+  box-shadow: 0 0 3px 0 #ddd;
+  border-radius: 10px;
+} */
+}
+button:hover{
+  width: 120px;
+  background-color: rgb(10, 65, 184);
+
+  color: white;
+  font-weight: bolder;
+}
+button:active{
+  color: grey;
+}
+#xx-btn{
+  width: 50px;
+color: black;
+  margin-right: 0;
+  background-color: white;
+
+}
+.view{
+  background-image: url(none);
+  background-size: 0;
+  background: none;
+  height: 100%;
+  font-weight: 700;
+
+    padding: 20px;
+}
+#viewl{
+  background-image: none;
+  background-size: 0;
+  background: none;
+  width: 100%;
+  height: 100%;
+  animation: mov-div-tt 0.3s ease ;
+
+  padding: 20px;
+  line-height: 1.5;
+}
+result{
+
+  padding: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.vpk{
+  margin-bottom: 20%;
+  animation: mov-div-tt 0.3s ease ;
+}
+.oo{
+  font-weight: 700;
+}
+li{
+  font-weight: 700;
+}
+br{
+  width: 100px;
+}
+footer {
+    padding: 5% 15% 3% 15%;
+
+    background-color: #30475e;
+    height:290px;
+    line-height: 0.8;
+    color: white;
+    margin: 0;
+    text-align: center;
+
+
+
+}
+.m-icon {
+  margin: 20px 10px;
+
+}
+a{
+
+    color: white;
+}
+#hh{
+  color: rgb(58, 101, 231);
+}
+#gain-weigth{
+  font-weight: 800;
+}
+#lose-weight{
+  font-weight: 800;
+}
+.h11{
+  font-weight: 900;
+  font-size: 24px
+}
+@media (max-width:900px) {
+  body{
+    background-size: 100% 10%;
+    overflow-x: visible;
+  }
+  .tt{
+    box-shadow: 0 0 black;
+  }
+  input{
+    width: 40px;
+  }
+  input:focus{
+    width: 50px;
+  }
+
+}
+@media (max-width:500px) {
+  .tt{
+    margin-right: 40%;
+  }
+
+  body{
+    overflow-x: visible;
+
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: grey;
+
+  }
+  ::-webkit-scrollbar-track{
+    background-color: white;
+  }
+  ::-webkit-scrollbar-corner{
+    background-color:#30475e;
+  }
+  ::-webkit-scrollbar-track-piece{
+    background-color:#30475e;
+  }
+}
+@media (max-width:315px) {
+  body{
+    background-image: none;
+    background-color: #f4f4f4;
+  }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+#sorry-div{
+  visibility: visible;
+}
+
+}
