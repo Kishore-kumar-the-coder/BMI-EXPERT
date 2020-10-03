@@ -223,7 +223,7 @@ color: black;
   padding: 20px;
   line-height: 1.5;
 }
-result{
+.result{
 
   padding: 20px;
   font-weight: 700;
@@ -275,6 +275,11 @@ a{
 .h11{
   font-weight: 900;
   font-size: 24px
+}
+.web{
+
+color: black;
+  background-color: #ddd;
 }
 @media (max-width:900px) {
   body{
