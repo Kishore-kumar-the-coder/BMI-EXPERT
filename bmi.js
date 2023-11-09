@@ -1,3 +1,4 @@
+alert("Hi!, Im Kishore , If You Are Viewing This In A Mobile Phone , Click On The Three Dots Menu And Click 'DESKTOP SITE' Option Thank You!!!");
 // function bmicc(){
 //   w = document.getElementById('w').value
 //     h = document.getElementById('h').value
